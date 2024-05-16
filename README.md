@@ -44,7 +44,7 @@ In this challenge, there are three layers communicating in an order. Basically, 
 ## Getting Started
 
 There are several instructions on setting up the project locally.
-To get a local copy up and running follow these simple example steps please:
+To get a local copy up and running follow these simple steps please:
 
 ### Steps for running the Server
 
