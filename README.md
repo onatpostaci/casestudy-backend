@@ -16,7 +16,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#steps-for-running-the-server">Steps for running the Server</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -33,11 +33,10 @@ In this challenge, there are three layers communicating in an order. Basically, 
 
 ### Built With
 
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
 - ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 - ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
 - ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
+- ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -60,6 +59,7 @@ To get a local copy up and running follow these simple example steps please:
 2. Install the necessary NPM packages
 
 - npm
+
   ```sh
   npm install
 
@@ -73,6 +73,7 @@ To get a local copy up and running follow these simple example steps please:
 4. Start the server
 
 - npm
+
   ```sh
   npm start dev
 
