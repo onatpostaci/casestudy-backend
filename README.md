@@ -17,7 +17,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#steps-for-running-the-server">Steps for running the Server</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
   </ol>
@@ -67,8 +66,8 @@ To get a local copy up and running follow these simple example steps please:
 
 3. Enter your desired port and OpenAI API key in `.env` file created in xaver-project directory
    ```js
-   OPENAI_API_KEY='ENTER YOUR API'
-   PORT_NUMBER=ENTER YOUR PORT NUMBER'
+   OPENAI_API_KEY = 'ENTER YOUR API';
+   PORT_NUMBER = 'ENTER YOUR PORT NUMBER';
    ```
 4. Start the server
 
