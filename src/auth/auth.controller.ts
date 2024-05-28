@@ -1,6 +1,7 @@
-import { Body, Controller, HttpException, Post } from '@nestjs/common';
+import { Body, Controller, HttpException, Post, UseGuards } from '@nestjs/common';
 import { AuthPayloadDto } from './dto/auth.dto';
 import { AuthService } from './auth.service';
+import { LocalGuard } from './guards/local.guard';
 
 @Controller('auth')
 export class AuthController {
@@ -9,12 +10,9 @@ export class AuthController {
 
   //When user wants to authenticate itself, it will POST the data to the MongoDB Cloud first
   @Post('login')
+  @UseGuards(LocalGuard)
   login(@Body() authPayload: AuthPayloadDto) {
     const responseUser = this.authService.validateUser(authPayload);
-
-    if (!responseUser) {
-      throw new HttpException('Invalid Credentials', 401);
-    }
     return responseUser;
   }
 }
